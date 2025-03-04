@@ -22,7 +22,6 @@ public class User implements Serializable{
 	public User() {}
 
 	public User(String id, String nome, String email) {
-		super();
 		this.id = id;
 		this.nome = nome;
 		this.email = email;
@@ -68,7 +67,5 @@ public class User implements Serializable{
 		User other = (User) obj;
 		return Objects.equals(id, other.id);
 	}
-	
-	
 
 }
